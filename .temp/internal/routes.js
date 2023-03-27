@@ -21,20 +21,12 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-504cdbf5",
-    path: "/%20unity/test.html",
+    name: "v-43f93ca8",
+    path: "/unity/test.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-504cdbf5").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-43f93ca8").then(next)
     },
-  },
-  {
-    path: "/ unity/test.html",
-    redirect: "/%20unity/test.html"
-  },
-  {
-    path: "/ unity/test.html",
-    redirect: "/%20unity/test.html"
   },
   {
     path: '*',
