@@ -8,21 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "目录标题",
-      "frontmatter": {},
-      "regularPath": "/%20unity/test.html",
-      "relativePath": " unity/test.md",
-      "key": "v-504cdbf5",
-      "path": "/%20unity/test.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "windows安装nvm",
-          "slug": "windows安装nvm"
-        }
-      ]
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -50,6 +35,21 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-56aa2e3a",
       "path": "/"
+    },
+    {
+      "title": "目录标题",
+      "frontmatter": {},
+      "regularPath": "/%20unity/test.html",
+      "relativePath": " unity/test.md",
+      "key": "v-504cdbf5",
+      "path": "/%20unity/test.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "windows安装nvm",
+          "slug": "windows安装nvm"
+        }
+      ]
     }
   ],
   "themeConfig": {

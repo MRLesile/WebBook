@@ -9,6 +9,18 @@ import GlobalLayout from "/Users/zl/Documents/GitHubWebBook/node_modules/@vuepre
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-56aa2e3a",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-56aa2e3a").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
     name: "v-504cdbf5",
     path: "/%20unity/test.html",
     component: GlobalLayout,
@@ -23,18 +35,6 @@ export const routes = [
   {
     path: "/ unity/test.html",
     redirect: "/%20unity/test.html"
-  },
-  {
-    name: "v-56aa2e3a",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-56aa2e3a").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     path: '*',
