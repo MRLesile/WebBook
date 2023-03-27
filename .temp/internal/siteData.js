@@ -15,7 +15,7 @@ export const siteData = {
         "heroText": "小郑的Unity小屋",
         "tagline": "Unity技术手册",
         "actionText": "打开笔记 →",
-        "actionLink": "/unity/test",
+        "actionLink": "/unitymobile/content",
         "features": [
           {
             "title": "移动端",
@@ -37,23 +37,70 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "测试",
+      "title": "模型相关处理",
       "frontmatter": {},
-      "regularPath": "/unity/test.html",
-      "relativePath": "unity/test.md",
-      "key": "v-43f93ca8",
-      "path": "/unity/test.html"
+      "regularPath": "/unityeditor/content.html",
+      "relativePath": "unityeditor/content.md",
+      "key": "v-140a2a18",
+      "path": "/unityeditor/content.html"
+    },
+    {
+      "title": "移动端的图片中心对称",
+      "frontmatter": {},
+      "regularPath": "/unitymobile/content.html",
+      "relativePath": "unitymobile/content.md",
+      "key": "v-b4d6dc90",
+      "path": "/unitymobile/content.html"
+    },
+    {
+      "title": "Oculus",
+      "frontmatter": {},
+      "regularPath": "/unityvrar/oculus.html",
+      "relativePath": "unityvrar/oculus.md",
+      "key": "v-ee190850",
+      "path": "/unityvrar/oculus.html"
+    },
+    {
+      "title": "Pico 4",
+      "frontmatter": {},
+      "regularPath": "/unityvrar/pico.html",
+      "relativePath": "unityvrar/pico.md",
+      "key": "v-6d6a7820",
+      "path": "/unityvrar/pico.html"
     }
   ],
   "themeConfig": {
     "sidebarDepth": 3,
+    "nav": [
+      {
+        "text": "GitHub",
+        "link": "https://github.com/MRLesile"
+      }
+    ],
     "sidebar": [
       {
-        "title": "Unity",
+        "title": "移动端",
         "collapsable": false,
-        "sidebarDepth": 1,
+        "sidebarDepth": 2,
         "children": [
-          "/unity/test"
+          "/unitymobile/content"
+        ]
+      },
+      {
+        "title": "Editor",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/unityeditor/content"
+        ]
+      },
+      {
+        "title": "VR/AR",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/unityvrar/oculus",
+          "/unityvrar/pico"
         ]
       }
     ]

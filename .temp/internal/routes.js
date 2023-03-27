@@ -21,11 +21,35 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-43f93ca8",
-    path: "/unity/test.html",
+    name: "v-140a2a18",
+    path: "/unityeditor/content.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-43f93ca8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-140a2a18").then(next)
+    },
+  },
+  {
+    name: "v-b4d6dc90",
+    path: "/unitymobile/content.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b4d6dc90").then(next)
+    },
+  },
+  {
+    name: "v-ee190850",
+    path: "/unityvrar/oculus.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ee190850").then(next)
+    },
+  },
+  {
+    name: "v-6d6a7820",
+    path: "/unityvrar/pico.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6d6a7820").then(next)
     },
   },
   {
