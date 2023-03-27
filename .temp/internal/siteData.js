@@ -15,7 +15,7 @@ export const siteData = {
         "heroText": "小郑的Unity小屋",
         "tagline": "Unity技术手册",
         "actionText": "打开笔记 →",
-        "actionLink": "/unitymobile/content",
+        "actionLink": "/unityai/ai",
         "features": [
           {
             "title": "移动端",
@@ -28,6 +28,10 @@ export const siteData = {
           {
             "title": "VR/AR",
             "details": "VR AR相关的技术文章"
+          },
+          {
+            "title": "杂项",
+            "details": "Unity一些前沿探究"
           }
         ]
       },
@@ -37,12 +41,19 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "模型相关处理",
+      "title": "AI",
       "frontmatter": {},
-      "regularPath": "/unityeditor/content.html",
-      "relativePath": "unityeditor/content.md",
-      "key": "v-140a2a18",
-      "path": "/unityeditor/content.html"
+      "regularPath": "/unityai/ai.html",
+      "relativePath": "unityai/ai.md",
+      "key": "v-52373f50",
+      "path": "/unityai/ai.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "文字转图片(stable-diffusion)",
+          "slug": "文字转图片-stable-diffusion"
+        }
+      ]
     },
     {
       "title": "移动端的图片中心对称",
@@ -51,6 +62,14 @@ export const siteData = {
       "relativePath": "unitymobile/content.md",
       "key": "v-b4d6dc90",
       "path": "/unitymobile/content.html"
+    },
+    {
+      "title": "模型相关处理",
+      "frontmatter": {},
+      "regularPath": "/unityeditor/content.html",
+      "relativePath": "unityeditor/content.md",
+      "key": "v-140a2a18",
+      "path": "/unityeditor/content.html"
     },
     {
       "title": "Oculus",
@@ -101,6 +120,14 @@ export const siteData = {
         "children": [
           "/unityvrar/oculus",
           "/unityvrar/pico"
+        ]
+      },
+      {
+        "title": "前沿技术探究",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/unityai/ai"
         ]
       }
     ]

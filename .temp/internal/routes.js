@@ -21,11 +21,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-140a2a18",
-    path: "/unityeditor/content.html",
+    name: "v-52373f50",
+    path: "/unityai/ai.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-140a2a18").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-52373f50").then(next)
     },
   },
   {
@@ -34,6 +34,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-b4d6dc90").then(next)
+    },
+  },
+  {
+    name: "v-140a2a18",
+    path: "/unityeditor/content.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-140a2a18").then(next)
     },
   },
   {
