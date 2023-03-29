@@ -41,21 +41,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "AI",
-      "frontmatter": {},
-      "regularPath": "/unityai/ai.html",
-      "relativePath": "unityai/ai.md",
-      "key": "v-52373f50",
-      "path": "/unityai/ai.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "文字转图片(stable-diffusion)",
-          "slug": "文字转图片-stable-diffusion"
-        }
-      ]
-    },
-    {
       "title": "SDK 接入篇",
       "frontmatter": {},
       "regularPath": "/unityeditor/SDKUse.html",
@@ -76,20 +61,34 @@ export const siteData = {
       ]
     },
     {
+      "title": "AI",
+      "frontmatter": {},
+      "regularPath": "/unityai/ai.html",
+      "relativePath": "unityai/ai.md",
+      "key": "v-52373f50",
+      "path": "/unityai/ai.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "文字转图片(stable-diffusion)",
+          "slug": "文字转图片-stable-diffusion"
+        }
+      ]
+    },
+    {
       "title": "模型相关处理",
       "frontmatter": {},
       "regularPath": "/unityeditor/content.html",
       "relativePath": "unityeditor/content.md",
       "key": "v-140a2a18",
-      "path": "/unityeditor/content.html"
-    },
-    {
-      "title": "移动端的图片中心对称",
-      "frontmatter": {},
-      "regularPath": "/unitymobile/content.html",
-      "relativePath": "unitymobile/content.md",
-      "key": "v-b4d6dc90",
-      "path": "/unitymobile/content.html"
+      "path": "/unityeditor/content.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "获取选中模型所有子物体的Name",
+          "slug": "获取选中模型所有子物体的name"
+        }
+      ]
     },
     {
       "title": "Oculus",
@@ -118,6 +117,14 @@ export const siteData = {
       "relativePath": "unityvrar/pico.md",
       "key": "v-6d6a7820",
       "path": "/unityvrar/pico.html"
+    },
+    {
+      "title": "移动端的图片中心对称",
+      "frontmatter": {},
+      "regularPath": "/unitymobile/content.html",
+      "relativePath": "unitymobile/content.md",
+      "key": "v-b4d6dc90",
+      "path": "/unitymobile/content.html"
     }
   ],
   "themeConfig": {
