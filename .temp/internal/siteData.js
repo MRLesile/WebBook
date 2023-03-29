@@ -15,7 +15,7 @@ export const siteData = {
         "heroText": "小郑的Unity小屋",
         "tagline": "Unity技术手册",
         "actionText": "打开笔记 →",
-        "actionLink": "/unityai/ai",
+        "actionLink": "/unityvrar/oculus",
         "features": [
           {
             "title": "移动端",
@@ -61,21 +61,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "AI",
-      "frontmatter": {},
-      "regularPath": "/unityai/ai.html",
-      "relativePath": "unityai/ai.md",
-      "key": "v-52373f50",
-      "path": "/unityai/ai.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "文字转图片(stable-diffusion)",
-          "slug": "文字转图片-stable-diffusion"
-        }
-      ]
-    },
-    {
       "title": "模型相关处理",
       "frontmatter": {},
       "regularPath": "/unityeditor/content.html",
@@ -89,6 +74,14 @@ export const siteData = {
           "slug": "获取选中模型所有子物体的name"
         }
       ]
+    },
+    {
+      "title": "移动端的图片中心对称",
+      "frontmatter": {},
+      "regularPath": "/unitymobile/content.html",
+      "relativePath": "unitymobile/content.md",
+      "key": "v-b4d6dc90",
+      "path": "/unitymobile/content.html"
     },
     {
       "title": "Oculus",
@@ -119,12 +112,19 @@ export const siteData = {
       "path": "/unityvrar/pico.html"
     },
     {
-      "title": "移动端的图片中心对称",
+      "title": "AI",
       "frontmatter": {},
-      "regularPath": "/unitymobile/content.html",
-      "relativePath": "unitymobile/content.md",
-      "key": "v-b4d6dc90",
-      "path": "/unitymobile/content.html"
+      "regularPath": "/unityai/ai.html",
+      "relativePath": "unityai/ai.md",
+      "key": "v-52373f50",
+      "path": "/unityai/ai.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "文字转图片(stable-diffusion)",
+          "slug": "文字转图片-stable-diffusion"
+        }
+      ]
     }
   ],
   "themeConfig": {

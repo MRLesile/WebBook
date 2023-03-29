@@ -4,7 +4,7 @@ heroImage: /work.png
 heroText: 小郑的Unity小屋
 tagline: Unity技术手册
 actionText: 打开笔记 →
-actionLink: /unityai/ai
+actionLink: /unityvrar/oculus
 features:
 - title: 移动端
   details: Unity 移动端相关技术
