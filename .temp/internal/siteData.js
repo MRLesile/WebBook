@@ -56,12 +56,24 @@ export const siteData = {
       ]
     },
     {
-      "title": "移动端的图片中心对称",
+      "title": "SDK 接入篇",
       "frontmatter": {},
-      "regularPath": "/unitymobile/content.html",
-      "relativePath": "unitymobile/content.md",
-      "key": "v-b4d6dc90",
-      "path": "/unitymobile/content.html"
+      "regularPath": "/unityeditor/SDKUse.html",
+      "relativePath": "unityeditor/SDKUse.md",
+      "key": "v-c4034b60",
+      "path": "/unityeditor/SDKUse.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "百度文本翻译接入Demo",
+          "slug": "百度文本翻译接入demo"
+        },
+        {
+          "level": 2,
+          "title": "有道翻译接入Demo",
+          "slug": "有道翻译接入demo"
+        }
+      ]
     },
     {
       "title": "模型相关处理",
@@ -72,12 +84,32 @@ export const siteData = {
       "path": "/unityeditor/content.html"
     },
     {
+      "title": "移动端的图片中心对称",
+      "frontmatter": {},
+      "regularPath": "/unitymobile/content.html",
+      "relativePath": "unitymobile/content.md",
+      "key": "v-b4d6dc90",
+      "path": "/unitymobile/content.html"
+    },
+    {
       "title": "Oculus",
       "frontmatter": {},
       "regularPath": "/unityvrar/oculus.html",
       "relativePath": "unityvrar/oculus.md",
       "key": "v-ee190850",
-      "path": "/unityvrar/oculus.html"
+      "path": "/unityvrar/oculus.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "有关VR一体机的抗锯齿一些设置",
+          "slug": "有关vr一体机的抗锯齿一些设置"
+        },
+        {
+          "level": 2,
+          "title": "有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结",
+          "slug": "有关oculus-quest中实测v47-oculus-intergration所遇到的一些问题总结"
+        }
+      ]
     },
     {
       "title": "Pico 4",
