@@ -41,6 +41,22 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "ChatGPT接入Unity",
+      "frontmatter": {},
+      "regularPath": "/unityai/chatgpt.html",
+      "relativePath": "unityai/chatgpt.md",
+      "key": "v-5e707f90",
+      "path": "/unityai/chatgpt.html"
+    },
+    {
+      "title": "文字转图片(stable-diffusion)",
+      "frontmatter": {},
+      "regularPath": "/unityai/ai.html",
+      "relativePath": "unityai/ai.md",
+      "key": "v-52373f50",
+      "path": "/unityai/ai.html"
+    },
+    {
       "title": "SDK 接入篇",
       "frontmatter": {},
       "regularPath": "/unityeditor/SDKUse.html",
@@ -110,21 +126,6 @@ export const siteData = {
       "relativePath": "unityvrar/pico.md",
       "key": "v-6d6a7820",
       "path": "/unityvrar/pico.html"
-    },
-    {
-      "title": "AI",
-      "frontmatter": {},
-      "regularPath": "/unityai/ai.html",
-      "relativePath": "unityai/ai.md",
-      "key": "v-52373f50",
-      "path": "/unityai/ai.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "文字转图片(stable-diffusion)",
-          "slug": "文字转图片-stable-diffusion"
-        }
-      ]
     }
   ],
   "themeConfig": {
@@ -166,7 +167,8 @@ export const siteData = {
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
-          "/unityai/ai"
+          "/unityai/ai",
+          "/unityai/chatgpt"
         ]
       }
     ]

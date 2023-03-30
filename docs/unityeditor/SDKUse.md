@@ -67,6 +67,7 @@ public static string ChangeLanague(string args)
 ## 有道翻译接入Demo
 
   ``` csharp
+    //appKey appSecret需要填入自己应用相应的密钥跟Key值
       public static void youdaoyun()
     {
         Dictionary<String, String> dic = new Dictionary<String, String>();

@@ -1,7 +1,7 @@
 # Oculus
 ## 有关VR一体机的抗锯齿一些设置
     下面是相关设置
-![设置DPI参数](./Testure/Oculus.png)  
+![设置DPI参数](./Image/Oculus.png)  
 
 
     1.如果是URP渲染管线下，请关闭Allow DynamicResolution
@@ -19,4 +19,4 @@
     (3)Canvas 同级创建两个空物体一个Collider，一个PlaneSurface,注意的是Collider挂在colliderSurface及BoxCollider,注意使用EditCollider调整碰撞器的大小与Canvas一致，PalneSurface只需要挂载PlaneSurface就行
 
         下面是引用关系图
-![OculusIntergration](./Testure/OculusIntergration.jpg)  
+![OculusIntergration](./Image/OculusIntergration.jpg)  

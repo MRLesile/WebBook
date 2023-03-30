@@ -21,6 +21,22 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-5e707f90",
+    path: "/unityai/chatgpt.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5e707f90").then(next)
+    },
+  },
+  {
+    name: "v-52373f50",
+    path: "/unityai/ai.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-52373f50").then(next)
+    },
+  },
+  {
     name: "v-c4034b60",
     path: "/unityeditor/SDKUse.html",
     component: GlobalLayout,
@@ -58,14 +74,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6d6a7820").then(next)
-    },
-  },
-  {
-    name: "v-52373f50",
-    path: "/unityai/ai.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-52373f50").then(next)
     },
   },
   {
