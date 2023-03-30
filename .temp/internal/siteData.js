@@ -41,14 +41,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "ChatGPT接入Unity",
-      "frontmatter": {},
-      "regularPath": "/unityai/chatgpt.html",
-      "relativePath": "unityai/chatgpt.md",
-      "key": "v-5e707f90",
-      "path": "/unityai/chatgpt.html"
-    },
-    {
       "title": "文字转图片(stable-diffusion)",
       "frontmatter": {},
       "regularPath": "/unityai/ai.html",
@@ -57,24 +49,20 @@ export const siteData = {
       "path": "/unityai/ai.html"
     },
     {
-      "title": "SDK 接入篇",
+      "title": "ChatGPT接入Unity",
       "frontmatter": {},
-      "regularPath": "/unityeditor/SDKUse.html",
-      "relativePath": "unityeditor/SDKUse.md",
-      "key": "v-c4034b60",
-      "path": "/unityeditor/SDKUse.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "百度文本翻译接入Demo",
-          "slug": "百度文本翻译接入demo"
-        },
-        {
-          "level": 2,
-          "title": "有道翻译接入Demo",
-          "slug": "有道翻译接入demo"
-        }
-      ]
+      "regularPath": "/unityai/chatgpt.html",
+      "relativePath": "unityai/chatgpt.md",
+      "key": "v-5e707f90",
+      "path": "/unityai/chatgpt.html"
+    },
+    {
+      "title": "Addressables增量更新",
+      "frontmatter": {},
+      "regularPath": "/unityeditor/addressable.html",
+      "relativePath": "unityeditor/addressable.md",
+      "key": "v-21bca338",
+      "path": "/unityeditor/addressable.html"
     },
     {
       "title": "模型相关处理",
@@ -88,6 +76,26 @@ export const siteData = {
           "level": 3,
           "title": "获取选中模型所有子物体的Name",
           "slug": "获取选中模型所有子物体的name"
+        }
+      ]
+    },
+    {
+      "title": "SDK 接入篇",
+      "frontmatter": {},
+      "regularPath": "/unityeditor/sdkuse.html",
+      "relativePath": "unityeditor/sdkuse.md",
+      "key": "v-87b76b60",
+      "path": "/unityeditor/sdkuse.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "百度文本翻译接入Demo",
+          "slug": "百度文本翻译接入demo"
+        },
+        {
+          "level": 2,
+          "title": "有道翻译接入Demo",
+          "slug": "有道翻译接入demo"
         }
       ]
     },
@@ -150,7 +158,9 @@ export const siteData = {
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
-          "/unityeditor/content"
+          "/unityeditor/content",
+          "/unityeditor/sdkuse",
+          "/unityeditor/addressable"
         ]
       },
       {
