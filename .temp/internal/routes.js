@@ -29,14 +29,6 @@ export const routes = [
     },
   },
   {
-    name: "v-5e707f90",
-    path: "/unityai/chatgpt.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e707f90").then(next)
-    },
-  },
-  {
     name: "v-21bca338",
     path: "/unityeditor/addressable.html",
     component: GlobalLayout,
@@ -50,6 +42,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-140a2a18").then(next)
+    },
+  },
+  {
+    name: "v-5e707f90",
+    path: "/unityai/chatgpt.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5e707f90").then(next)
     },
   },
   {

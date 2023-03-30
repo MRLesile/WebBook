@@ -4,9 +4,9 @@
 export default {
   "v-56aa2e3a": () => import("/Users/zl/Documents/GitHubWebBook/docs/README.md"),
   "v-52373f50": () => import("/Users/zl/Documents/GitHubWebBook/docs/unityai/ai.md"),
-  "v-5e707f90": () => import("/Users/zl/Documents/GitHubWebBook/docs/unityai/chatgpt.md"),
   "v-21bca338": () => import("/Users/zl/Documents/GitHubWebBook/docs/unityeditor/addressable.md"),
   "v-140a2a18": () => import("/Users/zl/Documents/GitHubWebBook/docs/unityeditor/content.md"),
+  "v-5e707f90": () => import("/Users/zl/Documents/GitHubWebBook/docs/unityai/chatgpt.md"),
   "v-87b76b60": () => import("/Users/zl/Documents/GitHubWebBook/docs/unityeditor/sdkuse.md"),
   "v-b4d6dc90": () => import("/Users/zl/Documents/GitHubWebBook/docs/unitymobile/content.md"),
   "v-ee190850": () => import("/Users/zl/Documents/GitHubWebBook/docs/unityvrar/oculus.md"),

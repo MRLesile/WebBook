@@ -49,14 +49,6 @@ export const siteData = {
       "path": "/unityai/ai.html"
     },
     {
-      "title": "ChatGPT接入Unity",
-      "frontmatter": {},
-      "regularPath": "/unityai/chatgpt.html",
-      "relativePath": "unityai/chatgpt.md",
-      "key": "v-5e707f90",
-      "path": "/unityai/chatgpt.html"
-    },
-    {
       "title": "Addressables增量更新",
       "frontmatter": {},
       "regularPath": "/unityeditor/addressable.html",
@@ -78,6 +70,14 @@ export const siteData = {
           "slug": "获取选中模型所有子物体的name"
         }
       ]
+    },
+    {
+      "title": "ChatGPT接入Unity",
+      "frontmatter": {},
+      "regularPath": "/unityai/chatgpt.html",
+      "relativePath": "unityai/chatgpt.md",
+      "key": "v-5e707f90",
+      "path": "/unityai/chatgpt.html"
     },
     {
       "title": "SDK 接入篇",
@@ -147,7 +147,7 @@ export const siteData = {
             "link": "/"
           },
           {
-            "text": "VX：SZUnityDevelop",
+            "text": "VX:SZUnityDevelop",
             "link": "/"
           }
         ]
