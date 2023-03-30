@@ -80,29 +80,32 @@ export const siteData = {
       ]
     },
     {
-      "title": "移动端的图片中心对称",
+      "title": "SDK 接入篇",
+      "frontmatter": {},
+      "regularPath": "/unityeditor/sdkuse.html",
+      "relativePath": "unityeditor/sdkuse.md",
+      "key": "v-87b76b60",
+      "path": "/unityeditor/sdkuse.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "百度文本翻译接入Demo",
+          "slug": "百度文本翻译接入demo"
+        },
+        {
+          "level": 2,
+          "title": "有道翻译接入Demo",
+          "slug": "有道翻译接入demo"
+        }
+      ]
+    },
+    {
+      "title": "移动端的图片上传相关问题",
       "frontmatter": {},
       "regularPath": "/unitymobile/content.html",
       "relativePath": "unitymobile/content.md",
       "key": "v-b4d6dc90",
-      "path": "/unitymobile/content.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "类似于微博上传图片的处理方式",
-          "slug": "类似于微博上传图片的处理方式"
-        },
-        {
-          "level": 2,
-          "title": "类似微博的处理方式",
-          "slug": "类似微博的处理方式"
-        },
-        {
-          "level": 3,
-          "title": "Unity处理",
-          "slug": "unity处理"
-        }
-      ]
+      "path": "/unitymobile/content.html"
     },
     {
       "title": "Oculus",
@@ -121,26 +124,6 @@ export const siteData = {
           "level": 2,
           "title": "有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结",
           "slug": "有关oculus-quest中实测v47-oculus-intergration所遇到的一些问题总结"
-        }
-      ]
-    },
-    {
-      "title": "SDK 接入篇",
-      "frontmatter": {},
-      "regularPath": "/unityeditor/sdkuse.html",
-      "relativePath": "unityeditor/sdkuse.md",
-      "key": "v-87b76b60",
-      "path": "/unityeditor/sdkuse.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "百度文本翻译接入Demo",
-          "slug": "百度文本翻译接入demo"
-        },
-        {
-          "level": 2,
-          "title": "有道翻译接入Demo",
-          "slug": "有道翻译接入demo"
         }
       ]
     },

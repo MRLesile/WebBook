@@ -53,6 +53,14 @@ export const routes = [
     },
   },
   {
+    name: "v-87b76b60",
+    path: "/unityeditor/sdkuse.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-87b76b60").then(next)
+    },
+  },
+  {
     name: "v-b4d6dc90",
     path: "/unitymobile/content.html",
     component: GlobalLayout,
@@ -66,14 +74,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-ee190850").then(next)
-    },
-  },
-  {
-    name: "v-87b76b60",
-    path: "/unityeditor/sdkuse.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-87b76b60").then(next)
     },
   },
   {
