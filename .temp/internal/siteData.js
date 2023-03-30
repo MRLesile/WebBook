@@ -80,32 +80,29 @@ export const siteData = {
       ]
     },
     {
-      "title": "SDK 接入篇",
-      "frontmatter": {},
-      "regularPath": "/unityeditor/sdkuse.html",
-      "relativePath": "unityeditor/sdkuse.md",
-      "key": "v-87b76b60",
-      "path": "/unityeditor/sdkuse.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "百度文本翻译接入Demo",
-          "slug": "百度文本翻译接入demo"
-        },
-        {
-          "level": 2,
-          "title": "有道翻译接入Demo",
-          "slug": "有道翻译接入demo"
-        }
-      ]
-    },
-    {
       "title": "移动端的图片中心对称",
       "frontmatter": {},
       "regularPath": "/unitymobile/content.html",
       "relativePath": "unitymobile/content.md",
       "key": "v-b4d6dc90",
-      "path": "/unitymobile/content.html"
+      "path": "/unitymobile/content.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "类似于微博上传图片的处理方式",
+          "slug": "类似于微博上传图片的处理方式"
+        },
+        {
+          "level": 2,
+          "title": "类似微博的处理方式",
+          "slug": "类似微博的处理方式"
+        },
+        {
+          "level": 3,
+          "title": "Unity处理",
+          "slug": "unity处理"
+        }
+      ]
     },
     {
       "title": "Oculus",
@@ -128,6 +125,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "SDK 接入篇",
+      "frontmatter": {},
+      "regularPath": "/unityeditor/sdkuse.html",
+      "relativePath": "unityeditor/sdkuse.md",
+      "key": "v-87b76b60",
+      "path": "/unityeditor/sdkuse.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "百度文本翻译接入Demo",
+          "slug": "百度文本翻译接入demo"
+        },
+        {
+          "level": 2,
+          "title": "有道翻译接入Demo",
+          "slug": "有道翻译接入demo"
+        }
+      ]
+    },
+    {
       "title": "Pico 4",
       "frontmatter": {},
       "regularPath": "/unityvrar/pico.html",
@@ -139,6 +156,19 @@ export const siteData = {
   "themeConfig": {
     "sidebarDepth": 3,
     "nav": [
+      {
+        "text": "联系方式",
+        "items": [
+          {
+            "text": "QQ:3528755239",
+            "link": "/"
+          },
+          {
+            "text": "VX：SZUnityDevelop",
+            "link": "/"
+          }
+        ]
+      },
       {
         "text": "GitHub",
         "link": "https://github.com/MRLesile"

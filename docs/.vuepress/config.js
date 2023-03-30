@@ -5,6 +5,13 @@ module.exports = {
   themeConfig: {
     sidebarDepth: 3,
     nav: [
+      {
+        text: '联系方式',
+        items: [
+          { text: 'QQ:3528755239',link: '/'},
+          { text: 'VX：SZUnityDevelop',link: '/'}
+        ]
+      },
       { text: "GitHub", link: "https://github.com/MRLesile" },
     ],
     sidebar: [

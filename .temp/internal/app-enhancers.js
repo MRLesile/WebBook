@@ -1,6 +1,6 @@
 import m0 from "/Users/zl/Documents/GitHubWebBook/.temp/app-enhancers/0.js"
 import m1 from "/Users/zl/Documents/GitHubWebBook/.temp/app-enhancers/data-block.js"
-import m2 from "/Users/zl/Documents/GitHubWebBook/.temp/app-enhancers/global-components-16.js"
+import m2 from "/Users/zl/Documents/GitHubWebBook/.temp/app-enhancers/global-components-74.js"
 import m3 from "/Users/zl/Documents/GitHubWebBook/.temp/app-enhancers/1.js"
 
 export default [
