@@ -9,6 +9,14 @@ import GlobalLayout from "/Users/zl/Documents/GitHubWebBook/node_modules/@vuepre
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-5e707f90",
+    path: "/unityai/chatgpt.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5e707f90").then(next)
+    },
+  },
+  {
     name: "v-56aa2e3a",
     path: "/",
     component: GlobalLayout,
@@ -45,22 +53,6 @@ export const routes = [
     },
   },
   {
-    name: "v-5e707f90",
-    path: "/unityai/chatgpt.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e707f90").then(next)
-    },
-  },
-  {
-    name: "v-87b76b60",
-    path: "/unityeditor/sdkuse.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-87b76b60").then(next)
-    },
-  },
-  {
     name: "v-b4d6dc90",
     path: "/unitymobile/content.html",
     component: GlobalLayout,
@@ -74,6 +66,22 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-ee190850").then(next)
+    },
+  },
+  {
+    name: "v-87b76b60",
+    path: "/unityeditor/sdkuse.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-87b76b60").then(next)
+    },
+  },
+  {
+    name: "v-6bc91616",
+    path: "/unitymobile/mobileoptimize.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6bc91616").then(next)
     },
   },
   {

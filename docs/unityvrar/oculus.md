@@ -4,10 +4,11 @@
 ![设置DPI参数](./Image/Oculus.png)  
 
 
-    1.如果是URP渲染管线下，请关闭Allow DynamicResolution
+    1.如果是URP渲染管线下，请关闭Allow DynamicResolution，并且设置DPI的每英寸的像素点如上图
     2.请对应使用合适的抗锯齿算法如MSAA FXAA SMAA
     3.UI的字体使用TextPro
-    4.修改RenderScale 的值（默认是1）
+    4.修改RenderScale 的值（默认是1，注意URP渲染管线下在universal render pipeline asset中设置）
+    5.使用MeshBaker工具将物体合并纹理Mesh合并，不动的物体走静态，带动画及移动的物体看项目需求走Dynamic Bactching.(带动画的Mesh Baker合并注意使用SkinMeshRender)
 
  以上的方法均有性能的开销，请根据个人的项目调整合适的数值
 

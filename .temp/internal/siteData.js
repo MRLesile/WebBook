@@ -8,6 +8,14 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "ChatGPT接入Unity",
+      "frontmatter": {},
+      "regularPath": "/unityai/chatgpt.html",
+      "relativePath": "unityai/chatgpt.md",
+      "key": "v-5e707f90",
+      "path": "/unityai/chatgpt.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -72,34 +80,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "ChatGPT接入Unity",
-      "frontmatter": {},
-      "regularPath": "/unityai/chatgpt.html",
-      "relativePath": "unityai/chatgpt.md",
-      "key": "v-5e707f90",
-      "path": "/unityai/chatgpt.html"
-    },
-    {
-      "title": "SDK 接入篇",
-      "frontmatter": {},
-      "regularPath": "/unityeditor/sdkuse.html",
-      "relativePath": "unityeditor/sdkuse.md",
-      "key": "v-87b76b60",
-      "path": "/unityeditor/sdkuse.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "百度文本翻译接入Demo",
-          "slug": "百度文本翻译接入demo"
-        },
-        {
-          "level": 2,
-          "title": "有道翻译接入Demo",
-          "slug": "有道翻译接入demo"
-        }
-      ]
-    },
-    {
       "title": "移动端的图片上传相关问题",
       "frontmatter": {},
       "regularPath": "/unitymobile/content.html",
@@ -124,6 +104,51 @@ export const siteData = {
           "level": 2,
           "title": "有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结",
           "slug": "有关oculus-quest中实测v47-oculus-intergration所遇到的一些问题总结"
+        }
+      ]
+    },
+    {
+      "title": "SDK 接入篇",
+      "frontmatter": {},
+      "regularPath": "/unityeditor/sdkuse.html",
+      "relativePath": "unityeditor/sdkuse.md",
+      "key": "v-87b76b60",
+      "path": "/unityeditor/sdkuse.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "百度文本翻译接入Demo",
+          "slug": "百度文本翻译接入demo"
+        },
+        {
+          "level": 2,
+          "title": "有道翻译接入Demo",
+          "slug": "有道翻译接入demo"
+        }
+      ]
+    },
+    {
+      "title": "移动端的性能优化",
+      "frontmatter": {},
+      "regularPath": "/unitymobile/mobileoptimize.html",
+      "relativePath": "unitymobile/mobileoptimize.md",
+      "key": "v-6bc91616",
+      "path": "/unitymobile/mobileoptimize.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Mesh合并",
+          "slug": "mesh合并"
+        },
+        {
+          "level": 2,
+          "title": "材质球合并",
+          "slug": "材质球合并"
+        },
+        {
+          "level": 2,
+          "title": "Xocde性能分析工具",
+          "slug": "xocde性能分析工具"
         }
       ]
     },
@@ -163,7 +188,8 @@ export const siteData = {
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
-          "/unitymobile/content"
+          "/unitymobile/content",
+          "/unitymobile/mobileoptimize"
         ]
       },
       {
