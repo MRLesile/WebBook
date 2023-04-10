@@ -9,14 +9,6 @@ import GlobalLayout from "/Users/zl/Documents/GitHubWebBook/node_modules/@vuepre
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-5e707f90",
-    path: "/unityai/chatgpt.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e707f90").then(next)
-    },
-  },
-  {
     name: "v-56aa2e3a",
     path: "/",
     component: GlobalLayout,
@@ -29,19 +21,19 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-5e707f90",
+    path: "/unityai/chatgpt.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5e707f90").then(next)
+    },
+  },
+  {
     name: "v-52373f50",
     path: "/unityai/ai.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-52373f50").then(next)
-    },
-  },
-  {
-    name: "v-21bca338",
-    path: "/unityeditor/addressable.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-21bca338").then(next)
     },
   },
   {
@@ -53,19 +45,11 @@ export const routes = [
     },
   },
   {
-    name: "v-b4d6dc90",
-    path: "/unitymobile/content.html",
+    name: "v-21bca338",
+    path: "/unityeditor/addressable.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b4d6dc90").then(next)
-    },
-  },
-  {
-    name: "v-ee190850",
-    path: "/unityvrar/oculus.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ee190850").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-21bca338").then(next)
     },
   },
   {
@@ -77,11 +61,35 @@ export const routes = [
     },
   },
   {
+    name: "v-0119e72c",
+    path: "/unityerror/error.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0119e72c").then(next)
+    },
+  },
+  {
+    name: "v-b4d6dc90",
+    path: "/unitymobile/content.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b4d6dc90").then(next)
+    },
+  },
+  {
     name: "v-6bc91616",
     path: "/unitymobile/mobileoptimize.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6bc91616").then(next)
+    },
+  },
+  {
+    name: "v-ee190850",
+    path: "/unityvrar/oculus.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ee190850").then(next)
     },
   },
   {

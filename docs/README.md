@@ -14,6 +14,8 @@ features:
   details: VR AR相关的技术文章
 - title: 杂项
   details: Unity一些前沿探究
+- title: 疑难杂症
+  details: Unity一些错误解决办法的记录
 ---
 
 

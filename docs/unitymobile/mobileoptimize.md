@@ -19,7 +19,10 @@
 
  ## 材质球合并
     1.MeshCombineStudio
+[下载链接]<https://download.csdn.net/download/m0_37382999/87663913> 
+   
     2.MeshSimplify
+
     3.MeshBaker
 [下载链接]<https://download.csdn.net/download/m0_37382999/16239204?spm=1001.2014.3001.5503> 
 

@@ -8,14 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "ChatGPT接入Unity",
-      "frontmatter": {},
-      "regularPath": "/unityai/chatgpt.html",
-      "relativePath": "unityai/chatgpt.md",
-      "key": "v-5e707f90",
-      "path": "/unityai/chatgpt.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -40,6 +32,10 @@ export const siteData = {
           {
             "title": "杂项",
             "details": "Unity一些前沿探究"
+          },
+          {
+            "title": "疑难杂症",
+            "details": "Unity一些错误解决办法的记录"
           }
         ]
       },
@@ -49,20 +45,20 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "ChatGPT接入Unity",
+      "frontmatter": {},
+      "regularPath": "/unityai/chatgpt.html",
+      "relativePath": "unityai/chatgpt.md",
+      "key": "v-5e707f90",
+      "path": "/unityai/chatgpt.html"
+    },
+    {
       "title": "文字转图片(stable-diffusion)",
       "frontmatter": {},
       "regularPath": "/unityai/ai.html",
       "relativePath": "unityai/ai.md",
       "key": "v-52373f50",
       "path": "/unityai/ai.html"
-    },
-    {
-      "title": "Addressables增量更新",
-      "frontmatter": {},
-      "regularPath": "/unityeditor/addressable.html",
-      "relativePath": "unityeditor/addressable.md",
-      "key": "v-21bca338",
-      "path": "/unityeditor/addressable.html"
     },
     {
       "title": "模型相关处理",
@@ -80,32 +76,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "移动端的图片上传相关问题",
+      "title": "Addressables增量更新",
       "frontmatter": {},
-      "regularPath": "/unitymobile/content.html",
-      "relativePath": "unitymobile/content.md",
-      "key": "v-b4d6dc90",
-      "path": "/unitymobile/content.html"
-    },
-    {
-      "title": "Oculus",
-      "frontmatter": {},
-      "regularPath": "/unityvrar/oculus.html",
-      "relativePath": "unityvrar/oculus.md",
-      "key": "v-ee190850",
-      "path": "/unityvrar/oculus.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "有关VR一体机的抗锯齿一些设置",
-          "slug": "有关vr一体机的抗锯齿一些设置"
-        },
-        {
-          "level": 2,
-          "title": "有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结",
-          "slug": "有关oculus-quest中实测v47-oculus-intergration所遇到的一些问题总结"
-        }
-      ]
+      "regularPath": "/unityeditor/addressable.html",
+      "relativePath": "unityeditor/addressable.md",
+      "key": "v-21bca338",
+      "path": "/unityeditor/addressable.html"
     },
     {
       "title": "SDK 接入篇",
@@ -128,6 +104,29 @@ export const siteData = {
       ]
     },
     {
+      "title": "Unity 常见Error问题",
+      "frontmatter": {},
+      "regularPath": "/unityerror/error.html",
+      "relativePath": "unityerror/error.md",
+      "key": "v-0119e72c",
+      "path": "/unityerror/error.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Unity打包出现com.android.build.gradle.internal.tasks.workers$actionfacade",
+          "slug": "unity打包出现com-android-build-gradle-internal-tasks-workers-actionfacade"
+        }
+      ]
+    },
+    {
+      "title": "移动端的图片上传相关问题",
+      "frontmatter": {},
+      "regularPath": "/unitymobile/content.html",
+      "relativePath": "unitymobile/content.md",
+      "key": "v-b4d6dc90",
+      "path": "/unitymobile/content.html"
+    },
+    {
       "title": "移动端的性能优化",
       "frontmatter": {},
       "regularPath": "/unitymobile/mobileoptimize.html",
@@ -147,8 +146,43 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "Xocde性能分析工具",
-          "slug": "xocde性能分析工具"
+          "title": "UPR性能分析工具",
+          "slug": "upr性能分析工具"
+        },
+        {
+          "level": 2,
+          "title": "Xcode性能分析工具",
+          "slug": "xcode性能分析工具"
+        },
+        {
+          "level": 2,
+          "title": "URP相关小问题",
+          "slug": "urp相关小问题"
+        },
+        {
+          "level": 2,
+          "title": "视频教程推荐",
+          "slug": "视频教程推荐"
+        }
+      ]
+    },
+    {
+      "title": "Oculus",
+      "frontmatter": {},
+      "regularPath": "/unityvrar/oculus.html",
+      "relativePath": "unityvrar/oculus.md",
+      "key": "v-ee190850",
+      "path": "/unityvrar/oculus.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "有关VR一体机的抗锯齿一些设置",
+          "slug": "有关vr一体机的抗锯齿一些设置"
+        },
+        {
+          "level": 2,
+          "title": "有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结",
+          "slug": "有关oculus-quest中实测v47-oculus-intergration所遇到的一些问题总结"
         }
       ]
     },
@@ -218,6 +252,14 @@ export const siteData = {
         "children": [
           "/unityai/ai",
           "/unityai/chatgpt"
+        ]
+      },
+      {
+        "title": "疑难杂症",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/unityerror/error"
         ]
       }
     ]
