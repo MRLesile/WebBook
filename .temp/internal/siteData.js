@@ -53,12 +53,32 @@ export const siteData = {
       "path": "/unityai/chatgpt.html"
     },
     {
-      "title": "文字转图片(stable-diffusion)",
+      "title": "Unity及Three.js一些实验性Demo",
       "frontmatter": {},
-      "regularPath": "/unityai/ai.html",
-      "relativePath": "unityai/ai.md",
-      "key": "v-52373f50",
-      "path": "/unityai/ai.html"
+      "regularPath": "/unityai/showdemo.html",
+      "relativePath": "unityai/showdemo.md",
+      "key": "v-7fb2f940",
+      "path": "/unityai/showdemo.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Three.js",
+          "slug": "three-js"
+        },
+        {
+          "level": 2,
+          "title": "视频播放链接",
+          "slug": "视频播放链接"
+        }
+      ]
+    },
+    {
+      "title": "Addressables增量更新",
+      "frontmatter": {},
+      "regularPath": "/unityeditor/addressable.html",
+      "relativePath": "unityeditor/addressable.md",
+      "key": "v-21bca338",
+      "path": "/unityeditor/addressable.html"
     },
     {
       "title": "模型相关处理",
@@ -74,14 +94,6 @@ export const siteData = {
           "slug": "获取选中模型所有子物体的name"
         }
       ]
-    },
-    {
-      "title": "Addressables增量更新",
-      "frontmatter": {},
-      "regularPath": "/unityeditor/addressable.html",
-      "relativePath": "unityeditor/addressable.md",
-      "key": "v-21bca338",
-      "path": "/unityeditor/addressable.html"
     },
     {
       "title": "SDK 接入篇",
@@ -193,6 +205,14 @@ export const siteData = {
       "relativePath": "unityvrar/pico.md",
       "key": "v-6d6a7820",
       "path": "/unityvrar/pico.html"
+    },
+    {
+      "title": "文字转图片(stable-diffusion)",
+      "frontmatter": {},
+      "regularPath": "/unityai/ai.html",
+      "relativePath": "unityai/ai.md",
+      "key": "v-52373f50",
+      "path": "/unityai/ai.html"
     }
   ],
   "themeConfig": {
@@ -251,7 +271,8 @@ export const siteData = {
         "sidebarDepth": 2,
         "children": [
           "/unityai/ai",
-          "/unityai/chatgpt"
+          "/unityai/chatgpt",
+          "/unityai/showdemo"
         ]
       },
       {

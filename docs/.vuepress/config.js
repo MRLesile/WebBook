@@ -50,6 +50,7 @@ module.exports = {
         children: [
           '/unityai/ai',
           '/unityai/chatgpt',
+          '/unityai/showdemo',
         ]
       },
       {

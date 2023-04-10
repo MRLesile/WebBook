@@ -29,19 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-52373f50",
-    path: "/unityai/ai.html",
+    name: "v-7fb2f940",
+    path: "/unityai/showdemo.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-52373f50").then(next)
-    },
-  },
-  {
-    name: "v-140a2a18",
-    path: "/unityeditor/content.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-140a2a18").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7fb2f940").then(next)
     },
   },
   {
@@ -50,6 +42,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-21bca338").then(next)
+    },
+  },
+  {
+    name: "v-140a2a18",
+    path: "/unityeditor/content.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-140a2a18").then(next)
     },
   },
   {
@@ -98,6 +98,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6d6a7820").then(next)
+    },
+  },
+  {
+    name: "v-52373f50",
+    path: "/unityai/ai.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-52373f50").then(next)
     },
   },
   {

@@ -1,5 +1,5 @@
-# Oculus
-## 有关VR一体机的抗锯齿一些设置
+# Oculus <Badge text="Oculus主题"/>
+## 有关VR一体机的抗锯齿一些设置 <Badge text="抗锯齿" type="warning"/>
     下面是相关设置
 ![设置DPI参数](./Image/Oculus.png)  
 
@@ -12,7 +12,7 @@
 
  以上的方法均有性能的开销，请根据个人的项目调整合适的数值
 
- ## 有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结
+ ## 有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结 <Badge text="Oculus intergration v47" type="warning"/>
 
 * UI射线触发大致流程
     (1)EventSystem 需要挂在CanvasModule
