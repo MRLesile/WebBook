@@ -51,6 +51,7 @@ module.exports = {
           '/unityai/ai',
           '/unityai/chatgpt',
           '/unityai/showdemo',
+          '/unityai/git',
         ]
       },
       {
