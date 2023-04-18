@@ -21,3 +21,13 @@
 
         下面是引用关系图
 ![OculusIntergration](./Image/OculusIntergration.jpg)  
+
+## Oculus 安装官方Metric Tools性能分析工具
+  + Mac版配置ADB(自行去官网下载Metric Tools APK)
++ + 1.echo $HOME（进入当前用户home目录）
++ +  2.touch .bash_profile（创建.bash_profile文件）
++ + 3.open -e .bash_profile（打开.bash_profile文件）
++ + 4.export PATH=${PATH}:你电脑sdk的路径/tools:你电脑sdk的路径platform-tools（编辑打开的.bash_profile文件，这里我是使用了UnityHub下AndroidSDK的tool跟platform-tools）
++ + 5.source .bash_profile
++ + 6.adb version(检测是否配置成功)
++ + 7.adb install XXXXX(Metric Tools Mac端APK路径)

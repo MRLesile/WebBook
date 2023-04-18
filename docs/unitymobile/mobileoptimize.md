@@ -1,6 +1,29 @@
 # 移动端的性能优化
  ## Mesh合并
-     1.MeshBaker
+
+ + Mesh:
++ + Mesh.CombineMesh 合并静态网格对象
++ + Submeshes->SingleMesh,合并材质与贴图
++ Texture：
++ + AtlasTexTure,通过纹理坐标映射多张贴图
++ + Texture Array纹理数组
++ Shader变量与材质属性
++ + Material Property Block(BuildIn管线)
++ + Const buffer (SRP管线)
+
+常见的方式：
++ Static Batching
++ Dynamic Batching
++ GPU Instancing 
++ SRP Batching 
+  
+
+
+
+
+
+
+1.MeshBaker
 [下载链接]<https://download.csdn.net/download/m0_37382999/16239204?spm=1001.2014.3001.5503> 
     
     (1)导入插件后创建一个TextureBakerAndMeshBaker对象(一般大多都是这个Baker Prefab对象)
@@ -15,6 +38,9 @@
         完成后我们发现新生成的对象，共同应用一个Texture的图集跟一个通用的材质球，帮助我们省去了Static Batching的很多限制因素
         完成后的模型，可以隐藏掉原始的模型，打开Static Batching你从Profiler中能够明显看到Static Batching的数量
 ![TextureBakerAndMeshBaker](./Image/m4.jpg)  
+
+
+
 
 
  ## 材质球合并
