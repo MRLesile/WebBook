@@ -31,3 +31,22 @@
 + + 5.source .bash_profile
 + + 6.adb version(检测是否配置成功)
 + + 7.adb install XXXXX(Metric Tools Mac端APK路径)
+
+## Oculus一些特殊设置<Badge text="VRSetting" type="warning"/>
+### Oculus设置分辨率
+```csharp
+    //90FPS目标帧数运行
+   OVRManager.display.displayFrequency = 90f;
+```
+### 固定注视点渲染特定于VR（针对帧率提高很有效果）
+```csharp
+   //动态固定注视点渲染会自动调整渲染Level
+    OVRManager.useDynamicFixedFoveatedRendering = true;
+
+    OVRManager.fixedFoveatedRenderingLevel = OVRManager.FixedFoveatedRenderingLevel.High;
+```
+### 设置Oculus 镜头分辨率(Urp中)
+#### 这里注意一下，Render Scale影响着帧率，默认1相当于W:1391 H:1584的分辨率
+![设置渲染分辨率](./Image/Oculus1.jpg)  
+ 
+

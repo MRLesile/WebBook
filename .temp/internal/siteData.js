@@ -8,34 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "文字转图片(stable-diffusion)",
-      "frontmatter": {},
-      "regularPath": "/unityai/ai.html",
-      "relativePath": "unityai/ai.md",
-      "key": "v-52373f50",
-      "path": "/unityai/ai.html"
-    },
-    {
-      "title": "Git相关操作",
-      "frontmatter": {},
-      "regularPath": "/unityai/git.html",
-      "relativePath": "unityai/git.md",
-      "key": "v-242e5498",
-      "path": "/unityai/git.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Unity常用的ignore模版",
-          "slug": "unity常用的ignore模版"
-        },
-        {
-          "level": 2,
-          "title": "常见git命令",
-          "slug": "常见git命令"
-        }
-      ]
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -73,12 +45,40 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "文字转图片(stable-diffusion)",
+      "frontmatter": {},
+      "regularPath": "/unityai/ai.html",
+      "relativePath": "unityai/ai.md",
+      "key": "v-52373f50",
+      "path": "/unityai/ai.html"
+    },
+    {
       "title": "ChatGPT接入Unity",
       "frontmatter": {},
       "regularPath": "/unityai/chatgpt.html",
       "relativePath": "unityai/chatgpt.md",
       "key": "v-5e707f90",
       "path": "/unityai/chatgpt.html"
+    },
+    {
+      "title": "Git相关操作",
+      "frontmatter": {},
+      "regularPath": "/unityai/git.html",
+      "relativePath": "unityai/git.md",
+      "key": "v-242e5498",
+      "path": "/unityai/git.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Unity常用的ignore模版",
+          "slug": "unity常用的ignore模版"
+        },
+        {
+          "level": 2,
+          "title": "常见git命令",
+          "slug": "常见git命令"
+        }
+      ]
     },
     {
       "title": "Addressables增量更新",
@@ -144,27 +144,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "Oculus",
+      "title": "Unity 常见Error问题",
       "frontmatter": {},
-      "regularPath": "/unityvrar/oculus.html",
-      "relativePath": "unityvrar/oculus.md",
-      "key": "v-ee190850",
-      "path": "/unityvrar/oculus.html",
+      "regularPath": "/unityerror/error.html",
+      "relativePath": "unityerror/error.md",
+      "key": "v-0119e72c",
+      "path": "/unityerror/error.html",
       "headers": [
         {
           "level": 2,
-          "title": "有关VR一体机的抗锯齿一些设置",
-          "slug": "有关vr一体机的抗锯齿一些设置"
-        },
-        {
-          "level": 2,
-          "title": "有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结",
-          "slug": "有关oculus-quest中实测v47-oculus-intergration所遇到的一些问题总结"
-        },
-        {
-          "level": 2,
-          "title": "Oculus 安装官方Metric Tools性能分析工具",
-          "slug": "oculus-安装官方metric-tools性能分析工具"
+          "title": "Unity打包出现com.android.build.gradle.internal.tasks.workers$actionfacade",
+          "slug": "unity打包出现com-android-build-gradle-internal-tasks-workers-actionfacade"
         }
       ]
     },
@@ -217,17 +207,27 @@ export const siteData = {
       "path": "/unitymobile/content.html"
     },
     {
-      "title": "Unity 常见Error问题",
+      "title": "Oculus",
       "frontmatter": {},
-      "regularPath": "/unityerror/error.html",
-      "relativePath": "unityerror/error.md",
-      "key": "v-0119e72c",
-      "path": "/unityerror/error.html",
+      "regularPath": "/unityvrar/oculus.html",
+      "relativePath": "unityvrar/oculus.md",
+      "key": "v-ee190850",
+      "path": "/unityvrar/oculus.html",
       "headers": [
         {
           "level": 2,
-          "title": "Unity打包出现com.android.build.gradle.internal.tasks.workers$actionfacade",
-          "slug": "unity打包出现com-android-build-gradle-internal-tasks-workers-actionfacade"
+          "title": "有关VR一体机的抗锯齿一些设置",
+          "slug": "有关vr一体机的抗锯齿一些设置"
+        },
+        {
+          "level": 2,
+          "title": "有关Oculus Quest中实测V47 Oculus intergration所遇到的一些问题总结",
+          "slug": "有关oculus-quest中实测v47-oculus-intergration所遇到的一些问题总结"
+        },
+        {
+          "level": 2,
+          "title": "Oculus 安装官方Metric Tools性能分析工具",
+          "slug": "oculus-安装官方metric-tools性能分析工具"
         }
       ]
     },

@@ -22,6 +22,7 @@ module.exports = {
         children: [
           '/unitymobile/content',
           '/unitymobile/mobileoptimize',
+          '/unitymobile/urpfeature',
         ]
       },
       {
@@ -50,7 +51,7 @@ module.exports = {
         children: [
           '/unityai/ai',
           '/unityai/chatgpt',
-          '/unityai/showdemo',
+          // '/unityai/showdemo',
           '/unityai/git',
         ]
       },
