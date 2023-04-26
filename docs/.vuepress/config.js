@@ -53,6 +53,7 @@ module.exports = {
           '/unityai/chatgpt',
           // '/unityai/showdemo',
           '/unityai/git',
+          '/unityai/shadergraph',
         ]
       },
       {
