@@ -147,7 +147,7 @@ Footer navigation
  + 7.git push -f origin main(强制推送)
  + 8.git config --list(查看git config 详细参数)
  + 9.git status (git 当前的状态)
-
+ + 10.git config http.postBuffer 524288000 (当前Git文件夹下执行，大文件上传设置)
 
 
 
