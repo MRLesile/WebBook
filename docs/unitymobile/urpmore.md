@@ -1,4 +1,4 @@
-# URP 中SRP跟GPU Instancing相关问题
+# URP 中SRP跟GPU Instancing相关问题<Badge text="URP中SRP及GPUInstancing"/>
 + 在URP中SRP默认是打开的，URP中SRP优先于GPUInstancing 所以常常我们在URP中需要GPU Instancing的物体会不成功,如下图
 
 ![GPUInstancing](./Image/urpmore1.jpg)

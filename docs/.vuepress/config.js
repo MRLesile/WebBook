@@ -23,6 +23,7 @@ module.exports = {
           '/unitymobile/content',
           '/unitymobile/mobileoptimize',
           '/unitymobile/urpfeature',
+          '/unitymobile/urpmore',
         ]
       },
       {
