@@ -9,16 +9,12 @@ import GlobalLayout from "/Users/zl/Documents/GitHubWebBook/node_modules/@vuepre
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-56aa2e3a",
-    path: "/",
+    name: "v-242e5498",
+    path: "/unityai/git.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-56aa2e3a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-242e5498").then(next)
     },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     name: "v-52373f50",
@@ -37,11 +33,23 @@ export const routes = [
     },
   },
   {
-    name: "v-242e5498",
-    path: "/unityai/git.html",
+    name: "v-56aa2e3a",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-242e5498").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-56aa2e3a").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-1d197278",
+    path: "/unityai/shadergraph.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1d197278").then(next)
     },
   },
   {
@@ -69,6 +77,14 @@ export const routes = [
     },
   },
   {
+    name: "v-0119e72c",
+    path: "/unityerror/error.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0119e72c").then(next)
+    },
+  },
+  {
     name: "v-87b76b60",
     path: "/unityeditor/sdkuse.html",
     component: GlobalLayout,
@@ -77,11 +93,11 @@ export const routes = [
     },
   },
   {
-    name: "v-0119e72c",
-    path: "/unityerror/error.html",
+    name: "v-2f56be98",
+    path: "/unitymobile/urpmore.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0119e72c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2f56be98").then(next)
     },
   },
   {
@@ -93,11 +109,27 @@ export const routes = [
     },
   },
   {
-    name: "v-b4d6dc90",
-    path: "/unitymobile/content.html",
+    name: "v-5fc216e8",
+    path: "/unitywebgl/content.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b4d6dc90").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5fc216e8").then(next)
+    },
+  },
+  {
+    name: "v-48e4c34e",
+    path: "/unitymobile/urpfeature.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-48e4c34e").then(next)
+    },
+  },
+  {
+    name: "v-6d6a7820",
+    path: "/unityvrar/pico.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6d6a7820").then(next)
     },
   },
   {
@@ -109,11 +141,11 @@ export const routes = [
     },
   },
   {
-    name: "v-6d6a7820",
-    path: "/unityvrar/pico.html",
+    name: "v-b4d6dc90",
+    path: "/unitymobile/content.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6d6a7820").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b4d6dc90").then(next)
     },
   },
   {

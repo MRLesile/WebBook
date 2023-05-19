@@ -8,6 +8,42 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "Git相关操作",
+      "frontmatter": {},
+      "regularPath": "/unityai/git.html",
+      "relativePath": "unityai/git.md",
+      "key": "v-242e5498",
+      "path": "/unityai/git.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Unity常用的ignore模版",
+          "slug": "unity常用的ignore模版"
+        },
+        {
+          "level": 2,
+          "title": "常见git命令",
+          "slug": "常见git命令"
+        }
+      ]
+    },
+    {
+      "title": "文字转图片(stable-diffusion)",
+      "frontmatter": {},
+      "regularPath": "/unityai/ai.html",
+      "relativePath": "unityai/ai.md",
+      "key": "v-52373f50",
+      "path": "/unityai/ai.html"
+    },
+    {
+      "title": "ChatGPT接入Unity",
+      "frontmatter": {},
+      "regularPath": "/unityai/chatgpt.html",
+      "relativePath": "unityai/chatgpt.md",
+      "key": "v-5e707f90",
+      "path": "/unityai/chatgpt.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -30,6 +66,10 @@ export const siteData = {
             "details": "VR AR相关的技术文章"
           },
           {
+            "title": "WebGL",
+            "details": "Unity WebGL"
+          },
+          {
             "title": "杂项",
             "details": "Unity一些前沿探究"
           },
@@ -45,38 +85,22 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "文字转图片(stable-diffusion)",
+      "title": "Unity ShaderGraph实现外描边透明效果",
       "frontmatter": {},
-      "regularPath": "/unityai/ai.html",
-      "relativePath": "unityai/ai.md",
-      "key": "v-52373f50",
-      "path": "/unityai/ai.html"
-    },
-    {
-      "title": "ChatGPT接入Unity",
-      "frontmatter": {},
-      "regularPath": "/unityai/chatgpt.html",
-      "relativePath": "unityai/chatgpt.md",
-      "key": "v-5e707f90",
-      "path": "/unityai/chatgpt.html"
-    },
-    {
-      "title": "Git相关操作",
-      "frontmatter": {},
-      "regularPath": "/unityai/git.html",
-      "relativePath": "unityai/git.md",
-      "key": "v-242e5498",
-      "path": "/unityai/git.html",
+      "regularPath": "/unityai/shadergraph.html",
+      "relativePath": "unityai/shadergraph.md",
+      "key": "v-1d197278",
+      "path": "/unityai/shadergraph.html",
       "headers": [
         {
           "level": 2,
-          "title": "Unity常用的ignore模版",
-          "slug": "unity常用的ignore模版"
+          "title": "首先是URP环境下新建一个Lit Shader Graph",
+          "slug": "首先是urp环境下新建一个lit-shader-graph"
         },
         {
           "level": 2,
-          "title": "常见git命令",
-          "slug": "常见git命令"
+          "title": "接下来就是我们的菲尼尔反射的Node",
+          "slug": "接下来就是我们的菲尼尔反射的node"
         }
       ]
     },
@@ -124,6 +148,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "Unity 常见Error问题",
+      "frontmatter": {},
+      "regularPath": "/unityerror/error.html",
+      "relativePath": "unityerror/error.md",
+      "key": "v-0119e72c",
+      "path": "/unityerror/error.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Unity打包出现com.android.build.gradle.internal.tasks.workers$actionfacade",
+          "slug": "unity打包出现com-android-build-gradle-internal-tasks-workers-actionfacade"
+        },
+        {
+          "level": 2,
+          "title": "Unity 圆角矩形UI边缘发白的解决办法",
+          "slug": "unity-圆角矩形ui边缘发白的解决办法"
+        }
+      ]
+    },
+    {
       "title": "SDK 接入篇",
       "frontmatter": {},
       "regularPath": "/unityeditor/sdkuse.html",
@@ -144,17 +188,22 @@ export const siteData = {
       ]
     },
     {
-      "title": "Unity 常见Error问题",
+      "title": "URP 中SRP跟GPU Instancing相关问题",
       "frontmatter": {},
-      "regularPath": "/unityerror/error.html",
-      "relativePath": "unityerror/error.md",
-      "key": "v-0119e72c",
-      "path": "/unityerror/error.html",
+      "regularPath": "/unitymobile/urpmore.html",
+      "relativePath": "unitymobile/urpmore.md",
+      "key": "v-2f56be98",
+      "path": "/unitymobile/urpmore.html",
       "headers": [
         {
           "level": 2,
-          "title": "Unity打包出现com.android.build.gradle.internal.tasks.workers$actionfacade",
-          "slug": "unity打包出现com-android-build-gradle-internal-tasks-workers-actionfacade"
+          "title": "通过MaterialPropertyBlock（都知道MaterialPropertyBlock可以打断SRP具体如何操作呢）",
+          "slug": "通过materialpropertyblock-都知道materialpropertyblock可以打断srp具体如何操作呢"
+        },
+        {
+          "level": 2,
+          "title": "通过URP的RenderFeature 处理",
+          "slug": "通过urp的renderfeature-处理"
         }
       ]
     },
@@ -199,12 +248,42 @@ export const siteData = {
       ]
     },
     {
-      "title": "移动端的图片上传相关问题",
+      "title": "Unity WebGL",
       "frontmatter": {},
-      "regularPath": "/unitymobile/content.html",
-      "relativePath": "unitymobile/content.md",
-      "key": "v-b4d6dc90",
-      "path": "/unitymobile/content.html"
+      "regularPath": "/unitywebgl/content.html",
+      "relativePath": "unitywebgl/content.md",
+      "key": "v-5fc216e8",
+      "path": "/unitywebgl/content.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Unity WebGL发布基本设置",
+          "slug": "unity-webgl发布基本设置"
+        }
+      ]
+    },
+    {
+      "title": "URP Feature RenderPass 示例",
+      "frontmatter": {},
+      "regularPath": "/unitymobile/urpfeature.html",
+      "relativePath": "unitymobile/urpfeature.md",
+      "key": "v-48e4c34e",
+      "path": "/unitymobile/urpfeature.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "URPFeature Color Adjustment 自定义后处理效果",
+          "slug": "urpfeature-color-adjustment-自定义后处理效果"
+        }
+      ]
+    },
+    {
+      "title": "Pico 4",
+      "frontmatter": {},
+      "regularPath": "/unityvrar/pico.html",
+      "relativePath": "unityvrar/pico.md",
+      "key": "v-6d6a7820",
+      "path": "/unityvrar/pico.html"
     },
     {
       "title": "Oculus",
@@ -228,16 +307,36 @@ export const siteData = {
           "level": 2,
           "title": "Oculus 安装官方Metric Tools性能分析工具",
           "slug": "oculus-安装官方metric-tools性能分析工具"
+        },
+        {
+          "level": 2,
+          "title": "Oculus一些特殊设置",
+          "slug": "oculus一些特殊设置"
+        },
+        {
+          "level": 3,
+          "title": "Oculus设置分辨率",
+          "slug": "oculus设置分辨率"
+        },
+        {
+          "level": 3,
+          "title": "固定注视点渲染特定于VR（针对帧率提高很有效果）",
+          "slug": "固定注视点渲染特定于vr-针对帧率提高很有效果"
+        },
+        {
+          "level": 3,
+          "title": "设置Oculus 镜头分辨率(Urp中)",
+          "slug": "设置oculus-镜头分辨率-urp中"
         }
       ]
     },
     {
-      "title": "Pico 4",
+      "title": "移动端的图片上传相关问题",
       "frontmatter": {},
-      "regularPath": "/unityvrar/pico.html",
-      "relativePath": "unityvrar/pico.md",
-      "key": "v-6d6a7820",
-      "path": "/unityvrar/pico.html"
+      "regularPath": "/unitymobile/content.html",
+      "relativePath": "unitymobile/content.md",
+      "key": "v-b4d6dc90",
+      "path": "/unitymobile/content.html"
     }
   ],
   "themeConfig": {
@@ -268,7 +367,9 @@ export const siteData = {
         "sidebarDepth": 2,
         "children": [
           "/unitymobile/content",
-          "/unitymobile/mobileoptimize"
+          "/unitymobile/mobileoptimize",
+          "/unitymobile/urpfeature",
+          "/unitymobile/urpmore"
         ]
       },
       {
@@ -291,14 +392,22 @@ export const siteData = {
         ]
       },
       {
+        "title": "UnityWebGL",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/unitywebgl/content"
+        ]
+      },
+      {
         "title": "前沿技术探究",
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
           "/unityai/ai",
           "/unityai/chatgpt",
-          "/unityai/showdemo",
-          "/unityai/git"
+          "/unityai/git",
+          "/unityai/shadergraph"
         ]
       },
       {

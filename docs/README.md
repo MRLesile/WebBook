@@ -12,6 +12,8 @@ features:
   details: Unity 编辑器的二次开发相关技术
 - title: VR/AR
   details: VR AR相关的技术文章
+- title: WebGL
+  details: Unity WebGL
 - title: 杂项
   details: Unity一些前沿探究
 - title: 疑难杂症
