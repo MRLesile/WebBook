@@ -63,6 +63,7 @@ module.exports = {
           // '/unityai/showdemo',
           '/unityai/git',
           '/unityai/shadergraph',
+          '/unityai/eventmanager',
         ]
       },
       {
