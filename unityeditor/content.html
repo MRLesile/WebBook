@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>模型相关处理 | 小郑的Unity小屋</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="Unity技术手册">
+    
+    <link rel="preload" href="/WebBook/assets/css/0.styles.91836ae9.css" as="style"><link rel="preload" href="/WebBook/assets/js/app.c021b396.js" as="script"><link rel="preload" href="/WebBook/assets/js/2.55aeb0af.js" as="script"><link rel="preload" href="/WebBook/assets/js/23.0e428b99.js" as="script"><link rel="prefetch" href="/WebBook/assets/js/10.f57e900e.js"><link rel="prefetch" href="/WebBook/assets/js/11.4e0b09a2.js"><link rel="prefetch" href="/WebBook/assets/js/12.44e974f9.js"><link rel="prefetch" href="/WebBook/assets/js/13.1bb85cff.js"><link rel="prefetch" href="/WebBook/assets/js/14.387c90c6.js"><link rel="prefetch" href="/WebBook/assets/js/15.67626fc7.js"><link rel="prefetch" href="/WebBook/assets/js/16.562845f4.js"><link rel="prefetch" href="/WebBook/assets/js/17.b4f8a81d.js"><link rel="prefetch" href="/WebBook/assets/js/18.22defc95.js"><link rel="prefetch" href="/WebBook/assets/js/19.060957fe.js"><link rel="prefetch" href="/WebBook/assets/js/20.7ed1b1b9.js"><link rel="prefetch" href="/WebBook/assets/js/21.36053fa9.js"><link rel="prefetch" href="/WebBook/assets/js/22.f56f40eb.js"><link rel="prefetch" href="/WebBook/assets/js/24.1e3db3de.js"><link rel="prefetch" href="/WebBook/assets/js/3.3290b05e.js"><link rel="prefetch" href="/WebBook/assets/js/4.2153cca9.js"><link rel="prefetch" href="/WebBook/assets/js/5.52103aeb.js"><link rel="prefetch" href="/WebBook/assets/js/6.56521c75.js"><link rel="prefetch" href="/WebBook/assets/js/7.6b752f90.js"><link rel="prefetch" href="/WebBook/assets/js/8.dbb0b870.js"><link rel="prefetch" href="/WebBook/assets/js/9.4974cefd.js">
+    <link rel="stylesheet" href="/WebBook/assets/css/0.styles.91836ae9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/WebBook/" class="home-link router-link-active"><!----> <span class="site-name">小郑的Unity小屋</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="联系方式" class="dropdown-title"><span class="title">联系方式</span> <span class="arrow down"></span></button> <button type="button" aria-label="联系方式" class="mobile-dropdown-title"><span class="title">联系方式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  QQ:3528755239
+</a></li><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  VX:SZUnityDevelop
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MRLesile" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="联系方式" class="dropdown-title"><span class="title">联系方式</span> <span class="arrow down"></span></button> <button type="button" aria-label="联系方式" class="mobile-dropdown-title"><span class="title">联系方式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  QQ:3528755239
+</a></li><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  VX:SZUnityDevelop
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MRLesile" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>移动端</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unitymobile/content.html" class="sidebar-link">移动端的图片上传相关问题</a></li><li><a href="/WebBook/unitymobile/mobileoptimize.html" class="sidebar-link">移动端的性能优化</a></li><li><a href="/WebBook/unitymobile/urpfeature.html" class="sidebar-link">URP Feature RenderPass 示例</a></li><li><a href="/WebBook/unitymobile/urpmore.html" class="sidebar-link">URP 中SRP跟GPU Instancing相关问题</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Editor</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityeditor/content.html" aria-current="page" class="active sidebar-link">模型相关处理</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/WebBook/unityeditor/sdkuse.html" class="sidebar-link">SDK 接入篇</a></li><li><a href="/WebBook/unityeditor/addressable.html" class="sidebar-link">Addressables增量更新</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>VR/AR</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityvrar/oculus.html" class="sidebar-link">Oculus</a></li><li><a href="/WebBook/unityvrar/pico.html" class="sidebar-link">Pico 4</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>UnityWebGL</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unitywebgl/content.html" class="sidebar-link">Unity WebGL</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前沿技术探究</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityai/ai.html" class="sidebar-link">文字转图片(stable-diffusion)</a></li><li><a href="/WebBook/unityai/chatgpt.html" class="sidebar-link">ChatGPT接入Unity</a></li><li><a href="/WebBook/unityai/git.html" class="sidebar-link">Git相关操作</a></li><li><a href="/WebBook/unityai/shadergraph.html" class="sidebar-link">Unity ShaderGraph实现外描边透明效果</a></li><li><a href="/WebBook/unityai/eventmanager.html" class="sidebar-link">EventManger参考模版</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>疑难杂症</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityerror/error.html" class="sidebar-link">Unity 常见Error问题</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="模型相关处理"><a href="#模型相关处理" class="header-anchor">#</a> 模型相关处理</h1> <h3 id="获取选中模型所有子物体的name"><a href="#获取选中模型所有子物体的name" class="header-anchor">#</a> 获取选中模型所有子物体的Name</h3> <div class="language-csharp extra-class"><pre class="language-csharp"><code>   <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">MenuItem</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">&quot;Tools/GetMeshNames&quot;</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">GetSelcetModelMeshNames</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Selection<span class="token punctuation">.</span>activeGameObject <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            Debug<span class="token punctuation">.</span><span class="token function">LogError</span><span class="token punctuation">(</span><span class="token string">&quot;Not Select Any GameObject&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token class-name"><span class="token keyword">var</span></span> SelcetObject <span class="token operator">=</span> Selection<span class="token punctuation">.</span>activeGameObject<span class="token punctuation">;</span>
+        <span class="token class-name">List<span class="token punctuation">&lt;</span>ExportedObject<span class="token punctuation">&gt;</span></span> exportedObjects <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">List<span class="token punctuation">&lt;</span>ExportedObject<span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">GetChildObjects</span><span class="token punctuation">(</span>SelcetObject<span class="token punctuation">.</span>transform<span class="token punctuation">,</span> exportedObjects<span class="token punctuation">,</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name"><span class="token keyword">var</span></span> RelustJson <span class="token operator">=</span> <span class="token function">ClearUpTreeViewData</span><span class="token punctuation">(</span>exportedObjects<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name"><span class="token keyword">string</span></span> jsonData <span class="token operator">=</span> JsonMapper<span class="token punctuation">.</span><span class="token function">ToJson</span><span class="token punctuation">(</span>RelustJson<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        File<span class="token punctuation">.</span><span class="token function">WriteAllText</span><span class="token punctuation">(</span>Application<span class="token punctuation">.</span>dataPath <span class="token operator">+</span> outputFilePath<span class="token punctuation">,</span> jsonData<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        AssetDatabase<span class="token punctuation">.</span><span class="token function">Refresh</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">GetChildObjects</span><span class="token punctuation">(</span><span class="token class-name">Transform</span> parent<span class="token punctuation">,</span> <span class="token class-name">List<span class="token punctuation">&lt;</span>ExportedObject<span class="token punctuation">&gt;</span></span> exportedObjects<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">string</span></span> parentPath<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token class-name">Transform</span> child <span class="token keyword">in</span> parent<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token comment">// Create exported object</span>
+            <span class="token class-name">ExportedObject</span> exportedObject <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">ExportedObject</span>
+            <span class="token punctuation">{</span>
+                Name <span class="token operator">=</span> child<span class="token punctuation">.</span>name<span class="token punctuation">,</span>
+                Path <span class="token operator">=</span> <span class="token interpolation-string"><span class="token string">$&quot;</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">parentPath</span><span class="token punctuation">}</span></span><span class="token string">/</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">child<span class="token punctuation">.</span>name</span><span class="token punctuation">}</span></span><span class="token string">&quot;</span></span>
+            <span class="token punctuation">}</span><span class="token punctuation">;</span>
+            <span class="token class-name"><span class="token keyword">var</span></span> Spllit <span class="token operator">=</span> exportedObject<span class="token punctuation">.</span>Path<span class="token punctuation">.</span><span class="token function">Split</span><span class="token punctuation">(</span><span class="token string">&quot;/&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            exportedObject<span class="token punctuation">.</span>ParentName <span class="token operator">=</span> Spllit<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+            exportedObject<span class="token punctuation">.</span>RankIndex <span class="token operator">=</span> Spllit<span class="token punctuation">.</span>Length<span class="token punctuation">;</span>
+            <span class="token comment">// Add to list</span>
+            exportedObjects<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>exportedObject<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token comment">// Recursively get child objects</span>
+            <span class="token function">GetChildObjects</span><span class="token punctuation">(</span>child<span class="token punctuation">,</span> exportedObjects<span class="token punctuation">,</span> exportedObject<span class="token punctuation">.</span>Path<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token return-type class-name">List<span class="token punctuation">&lt;</span>NameExportItem<span class="token punctuation">&gt;</span></span> <span class="token function">ClearUpTreeViewData</span><span class="token punctuation">(</span><span class="token class-name">List<span class="token punctuation">&lt;</span>ExportedObject<span class="token punctuation">&gt;</span></span> exportedObjects<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token class-name">List<span class="token punctuation">&lt;</span>NameExportItem<span class="token punctuation">&gt;</span></span> NameExportItem <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">List<span class="token punctuation">&lt;</span>NameExportItem<span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">var</span></span> Value <span class="token keyword">in</span> exportedObjects<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">NameExportItem</span> Mei <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">NameExportItem</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            Mei<span class="token punctuation">.</span>Name <span class="token operator">=</span> Value<span class="token punctuation">.</span>Name<span class="token punctuation">;</span>
+
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>Value<span class="token punctuation">.</span>RankIndex <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token class-name"><span class="token keyword">var</span></span> Reslut <span class="token operator">=</span> NameExportItem<span class="token punctuation">.</span><span class="token function">Find</span><span class="token punctuation">(</span>p <span class="token operator">=&gt;</span> p<span class="token punctuation">.</span>Name <span class="token operator">==</span> Value<span class="token punctuation">.</span>Name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>Reslut <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    Mei<span class="token punctuation">.</span>NeedChar<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>Mei<span class="token punctuation">.</span>Name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    NameExportItem<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>Mei<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>Value<span class="token punctuation">.</span>RankIndex <span class="token operator">==</span> <span class="token number">3</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token class-name"><span class="token keyword">var</span></span> Reslut <span class="token operator">=</span> NameExportItem<span class="token punctuation">.</span><span class="token function">Find</span><span class="token punctuation">(</span>p <span class="token operator">=&gt;</span> p<span class="token punctuation">.</span>Name <span class="token operator">==</span> Value<span class="token punctuation">.</span>ParentName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>Reslut <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    <span class="token class-name"><span class="token keyword">var</span></span> SplitChar <span class="token operator">=</span> Mei<span class="token punctuation">.</span>Name<span class="token punctuation">.</span><span class="token function">Split</span><span class="token punctuation">(</span><span class="token string">&quot;_&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token class-name"><span class="token keyword">var</span></span> FindIndex <span class="token operator">=</span> <span class="token function">FindIntStringIndex</span><span class="token punctuation">(</span>SplitChar<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    Mei<span class="token punctuation">.</span>NeedChar <span class="token operator">=</span> <span class="token function">GetSpilitStrings</span><span class="token punctuation">(</span>FindIndex<span class="token punctuation">,</span> SplitChar<span class="token punctuation">.</span><span class="token function">ToList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> Mei<span class="token punctuation">.</span>NeedChar<span class="token punctuation">.</span>Count<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token class-name"><span class="token keyword">string</span></span> zhstring <span class="token operator">=</span> <span class="token function">ChangeLanague</span><span class="token punctuation">(</span>Mei<span class="token punctuation">.</span>NeedChar<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                        <span class="token class-name">JsonData</span> json <span class="token operator">=</span> JsonMapper<span class="token punctuation">.</span><span class="token generic-method"><span class="token function">ToObject</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>JsonData<span class="token punctuation">&gt;</span></span></span><span class="token punctuation">(</span>zhstring<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                        <span class="token class-name"><span class="token keyword">string</span></span> dst <span class="token operator">=</span> json<span class="token punctuation">[</span><span class="token string">&quot;trans_result&quot;</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">&quot;dst&quot;</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                        Mei<span class="token punctuation">.</span>ChinaeseChar<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>dst<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+
+                    Reslut<span class="token punctuation">.</span>NextItem<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>Mei<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">return</span> NameExportItem<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">System<span class="token punctuation">.</span>Serializable</span></span><span class="token punctuation">]</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ExportedObject</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">/// &lt;summary&gt;</span>
+    <span class="token comment">/// Name</span>
+    <span class="token comment">/// &lt;/summary&gt;</span>
+    <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">string</span></span> Name<span class="token punctuation">;</span>
+
+    <span class="token comment">/// &lt;summary&gt;</span>
+    <span class="token comment">/// 路径</span>
+    <span class="token comment">/// &lt;/summary&gt;</span>
+    <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">string</span></span> Path<span class="token punctuation">;</span>
+
+    <span class="token comment">/// &lt;summary&gt;</span>
+    <span class="token comment">/// 层级</span>
+    <span class="token comment">/// &lt;/summary&gt;</span>
+    <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">int</span></span> RankIndex<span class="token punctuation">;</span>
+
+    <span class="token comment">/// &lt;summary&gt;</span>
+    <span class="token comment">/// 父级名称</span>
+    <span class="token comment">/// &lt;/summary&gt;</span>
+    <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">string</span></span> ParentName<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/WebBook/unitymobile/urpmore.html" class="prev">
+        URP 中SRP跟GPU Instancing相关问题
+      </a></span> <span class="next"><a href="/WebBook/unityeditor/sdkuse.html">
+        SDK 接入篇
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/WebBook/assets/js/app.c021b396.js" defer></script><script src="/WebBook/assets/js/2.55aeb0af.js" defer></script><script src="/WebBook/assets/js/23.0e428b99.js" defer></script>
+  </body>
+</html>

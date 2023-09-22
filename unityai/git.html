@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git相关操作 | 小郑的Unity小屋</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="Unity技术手册">
+    
+    <link rel="preload" href="/WebBook/assets/css/0.styles.91836ae9.css" as="style"><link rel="preload" href="/WebBook/assets/js/app.c021b396.js" as="script"><link rel="preload" href="/WebBook/assets/js/2.55aeb0af.js" as="script"><link rel="preload" href="/WebBook/assets/js/21.36053fa9.js" as="script"><link rel="prefetch" href="/WebBook/assets/js/10.f57e900e.js"><link rel="prefetch" href="/WebBook/assets/js/11.4e0b09a2.js"><link rel="prefetch" href="/WebBook/assets/js/12.44e974f9.js"><link rel="prefetch" href="/WebBook/assets/js/13.1bb85cff.js"><link rel="prefetch" href="/WebBook/assets/js/14.387c90c6.js"><link rel="prefetch" href="/WebBook/assets/js/15.67626fc7.js"><link rel="prefetch" href="/WebBook/assets/js/16.562845f4.js"><link rel="prefetch" href="/WebBook/assets/js/17.b4f8a81d.js"><link rel="prefetch" href="/WebBook/assets/js/18.22defc95.js"><link rel="prefetch" href="/WebBook/assets/js/19.060957fe.js"><link rel="prefetch" href="/WebBook/assets/js/20.7ed1b1b9.js"><link rel="prefetch" href="/WebBook/assets/js/22.f56f40eb.js"><link rel="prefetch" href="/WebBook/assets/js/23.0e428b99.js"><link rel="prefetch" href="/WebBook/assets/js/24.1e3db3de.js"><link rel="prefetch" href="/WebBook/assets/js/3.3290b05e.js"><link rel="prefetch" href="/WebBook/assets/js/4.2153cca9.js"><link rel="prefetch" href="/WebBook/assets/js/5.52103aeb.js"><link rel="prefetch" href="/WebBook/assets/js/6.56521c75.js"><link rel="prefetch" href="/WebBook/assets/js/7.6b752f90.js"><link rel="prefetch" href="/WebBook/assets/js/8.dbb0b870.js"><link rel="prefetch" href="/WebBook/assets/js/9.4974cefd.js">
+    <link rel="stylesheet" href="/WebBook/assets/css/0.styles.91836ae9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/WebBook/" class="home-link router-link-active"><!----> <span class="site-name">小郑的Unity小屋</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="联系方式" class="dropdown-title"><span class="title">联系方式</span> <span class="arrow down"></span></button> <button type="button" aria-label="联系方式" class="mobile-dropdown-title"><span class="title">联系方式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  QQ:3528755239
+</a></li><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  VX:SZUnityDevelop
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MRLesile" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="联系方式" class="dropdown-title"><span class="title">联系方式</span> <span class="arrow down"></span></button> <button type="button" aria-label="联系方式" class="mobile-dropdown-title"><span class="title">联系方式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  QQ:3528755239
+</a></li><li class="dropdown-item"><!----> <a href="/WebBook/" class="nav-link">
+  VX:SZUnityDevelop
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MRLesile" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>移动端</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unitymobile/content.html" class="sidebar-link">移动端的图片上传相关问题</a></li><li><a href="/WebBook/unitymobile/mobileoptimize.html" class="sidebar-link">移动端的性能优化</a></li><li><a href="/WebBook/unitymobile/urpfeature.html" class="sidebar-link">URP Feature RenderPass 示例</a></li><li><a href="/WebBook/unitymobile/urpmore.html" class="sidebar-link">URP 中SRP跟GPU Instancing相关问题</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Editor</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityeditor/content.html" class="sidebar-link">模型相关处理</a></li><li><a href="/WebBook/unityeditor/sdkuse.html" class="sidebar-link">SDK 接入篇</a></li><li><a href="/WebBook/unityeditor/addressable.html" class="sidebar-link">Addressables增量更新</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>VR/AR</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityvrar/oculus.html" class="sidebar-link">Oculus</a></li><li><a href="/WebBook/unityvrar/pico.html" class="sidebar-link">Pico 4</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>UnityWebGL</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unitywebgl/content.html" class="sidebar-link">Unity WebGL</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>前沿技术探究</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityai/ai.html" class="sidebar-link">文字转图片(stable-diffusion)</a></li><li><a href="/WebBook/unityai/chatgpt.html" class="sidebar-link">ChatGPT接入Unity</a></li><li><a href="/WebBook/unityai/git.html" aria-current="page" class="active sidebar-link">Git相关操作</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/WebBook/unityai/git.html#unity常用的ignore模版" class="sidebar-link">Unity常用的ignore模版</a></li><li class="sidebar-sub-header"><a href="/WebBook/unityai/git.html#常见git命令" class="sidebar-link">常见git命令</a></li></ul></li><li><a href="/WebBook/unityai/shadergraph.html" class="sidebar-link">Unity ShaderGraph实现外描边透明效果</a></li><li><a href="/WebBook/unityai/eventmanager.html" class="sidebar-link">EventManger参考模版</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>疑难杂症</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WebBook/unityerror/error.html" class="sidebar-link">Unity 常见Error问题</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git相关操作"><a href="#git相关操作" class="header-anchor">#</a> Git相关操作</h1> <h2 id="unity常用的ignore模版"><a href="#unity常用的ignore模版" class="header-anchor">#</a> Unity常用的ignore模版</h2> <div class="language- extra-class"><pre class="language-text"><code>
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@MRLesile
+github /
+gitignore
+Public
+
+Fork your own copy of github/gitignore
+
+Code
+Pull requests 389
+Actions
+Security
+
+    Insights
+
+gitignore/Unity.gitignore
+@bdougie
+bdougie Merge branch 'main' into patch-1
+Latest commit eafb2ee Dec 10, 2021
+History
+45 contributors
+@mviranyi
+@shana
+@FritzsHero
+@ahmyi
+@FutureClemens
+@shiftkey
+@bdougie
+@matzar
+@networm
+@Wiblz
+@tim-hub
+@theDrake
+72 lines (59 sloc) 1.25 KB
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/APK/
+
+# MemoryCaptures can get excessive in size.
+# They also could contain extremely sensitive data
+/[Mm]emoryCaptures/
+
+# Recordings can get excessive in size
+/[Rr]ecordings/
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# Autogenerated Jetbrains Rider plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio cache directory
+.vs/
+
+# Gradle cache directory
+.gradle/
+
+# Autogenerated VS/MD/Consulo solution and project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
+
+</code></pre></div><h2 id="常见git命令"><a href="#常见git命令" class="header-anchor">#</a> 常见git命令</h2> <ul><li>1.无权限访问
+<ul><li>sudo chmod -R 777 +XXXXX(目录)</li> <li>cd 目录</li></ul></li> <li>2.git init(初始化仓库)</li> <li>3.git add .（添加文件，本地操作）</li> <li>4.git commit -m &quot;xx&quot;(提交修改，本地操作)</li> <li>5.git remote add origin XXXX(URL,链接远程仓库)</li> <li>6.git branch -a  (查看远程分支)</li> <li>7.git push -f origin main(强制推送)</li> <li>8.git config --list(查看git config 详细参数)</li> <li>9.git status (git 当前的状态)</li> <li>10.git config http.postBuffer 524288000 (当前Git文件夹下执行，大文件上传设置)</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/WebBook/unityai/chatgpt.html" class="prev">
+        ChatGPT接入Unity
+      </a></span> <span class="next"><a href="/WebBook/unityai/shadergraph.html">
+        Unity ShaderGraph实现外描边透明效果
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/WebBook/assets/js/app.c021b396.js" defer></script><script src="/WebBook/assets/js/2.55aeb0af.js" defer></script><script src="/WebBook/assets/js/21.36053fa9.js" defer></script>
+  </body>
+</html>
